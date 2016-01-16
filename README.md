@@ -9,7 +9,7 @@ App get coins information from http://bx.in.th
 
 <b>Screens Shot:</b>
 <p>
-<img src="https://raw.githubusercontent.com/bulubuloa/BXBTCThailand/master/ScreensShot/Screenshot_2016-01-14-11-50-25.png" width="360">
-<img src="https://raw.githubusercontent.com/bulubuloa/BXBTCThailand/master/ScreensShot/Screenshot_2016-01-14-11-49-32.png" width="360">
-<img src="https://raw.githubusercontent.com/bulubuloa/BXBTCThailand/master/ScreensShot/Screenshot_2016-01-14-11-48-43.png" width="360">
-<img src="https://raw.githubusercontent.com/bulubuloa/BXBTCThailand/master/ScreensShot/Screenshot_2016-01-14-11-49-04.png" width="360">
+<img src="https://raw.githubusercontent.com/bulubuloa/BXBTCThailand/master/ScreensShot/Screenshot_2016-01-14-11-50-25.png" width="300">
+<img src="https://raw.githubusercontent.com/bulubuloa/BXBTCThailand/master/ScreensShot/Screenshot_2016-01-14-11-49-32.png" width="300">
+<img src="https://raw.githubusercontent.com/bulubuloa/BXBTCThailand/master/ScreensShot/Screenshot_2016-01-14-11-48-43.png" width="300">
+<img src="https://raw.githubusercontent.com/bulubuloa/BXBTCThailand/master/ScreensShot/Screenshot_2016-01-14-11-49-04.png" width="300">
