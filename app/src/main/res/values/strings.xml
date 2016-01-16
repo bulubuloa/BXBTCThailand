@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BXBTCThailand</string>
+    <string name="drawer_open">MENU</string>
+    <string name="full_ads">ca-app-pub-1581996270647750/1894402823</string>
+    <string name="banner_market">ca-app-pub-1581996270647750/9803658023</string>
+    <string name="banner_order">ca-app-pub-1581996270647750/3528295229</string>
+    <string name="banner_history">ca-app-pub-1581996270647750/2051562020</string>
+    <string name="banner_convert">ca-app-pub-1581996270647750/2191162826</string>
+</resources>

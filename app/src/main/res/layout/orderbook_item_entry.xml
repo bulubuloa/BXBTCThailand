@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/orderbook_itementry_icon"
+        android:paddingRight="10dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nodecoin_header"
+        android:layout_toRightOf="@+id/orderbook_itementry_icon"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#5a5a5a"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/orderbook_itementry_price" />
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#005aff"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/orderbook_itementry_time" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/orderbook_itementry_volume"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

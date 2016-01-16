@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15sp"
+    android:background="#ffffff">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect bx.in.th error"
+        android:paddingBottom="20sp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:text="Try Again"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@drawable/background_btt_tinhtongcuoc"
+            android:layout_weight="5"
+            android:layout_marginRight="5sp"
+            android:id="@+id/dialog_alert_shit_internet_bttthulai"/>
+        <Button
+            android:id="@+id/dialog_alert_shit_internet_bttquaylai"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:text="Back"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@drawable/background_btt_luu"
+            android:layout_weight="5"/>
+    </LinearLayout>
+</LinearLayout>

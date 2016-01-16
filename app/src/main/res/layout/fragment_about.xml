@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <com.quachhoang.bitcointhailandprices.data.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:id="@+id/fragment_about_text"/>
+    <Button
+        android:id="@+id/fragment_about_bttRate"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="#fff"
+        android:text="RATE APP"
+        android:background="@drawable/background_button_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

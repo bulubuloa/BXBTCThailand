@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:textColor="#005aff"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:layout_alignParentLeft="true"
+        android:text="Price"
+        android:id="@+id/orderbook_itemsection_txtprice" />
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#5a5a5a"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingTop="15dp"
+        android:id="@+id/orderbook_itemsection_sectionname" />
+    <TextView
+        android:text="Volume"
+        android:textColor="#005aff"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/orderbook_itemsection_txtvolume" />
+</RelativeLayout>

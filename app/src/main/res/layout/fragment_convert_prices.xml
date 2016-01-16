@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_convertPrices_spnCoinInput"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="#5a5a5a" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:imeOptions="actionDone"
+            android:hint="Value Input"
+            android:id="@+id/fragment_convertPrices_edtCoinInput" />
+        <Spinner
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_convertPrices_spnCoinOutput"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="#5a5a5a" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Value Output"
+            android:id="@+id/fragment_convertPrices_edtCoinOutput" />
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/fragment_convertPrices_adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="LARGE_BANNER"
+        ads:adUnitId="@string/banner_convert"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="CONVERT PRICES"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="@drawable/background_button_blue"
+        android:id="@+id/fragment_convertPrices_bttConvert" />
+</LinearLayout>

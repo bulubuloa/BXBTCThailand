@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nodecoin_imgCoin"
+        android:paddingRight="10dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nodecoin_header"
+        android:layout_toRightOf="@+id/nodecoin_imgCoin"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#5a5a5a"
+            android:textSize="15sp"
+            android:text="BTC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/nodecoin_txtCoinName" />
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#005aff"
+            android:textSize="15sp"
+            android:text="0.111111122"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/nodecoin_txtCoinPrice" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nodecoin_header"
+        android:layout_toRightOf="@+id/nodecoin_imgCoin">
+        <TextView
+            android:padding="3dp"
+            android:textSize="13sp"
+            android:text="12 bids"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@drawable/background_bids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nodecoin_sumbids" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:textColor="#5a5a5a"
+            android:textSize="13sp"
+            android:text="0.23232323"
+            android:layout_toRightOf="@+id/nodecoin_sumbids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nodecoin_highbids" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:textColor="#5a5a5a"
+            android:textSize="13sp"
+            android:layout_alignParentRight="true"
+            android:text="12 bids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nodecoin_highasks" />
+        <TextView
+            android:textSize="13sp"
+            android:padding="3dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_toLeftOf="@+id/nodecoin_highasks"
+            android:text="12 asks"
+            android:background="@drawable/background_asks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nodecoin_sumasks" />
+    </RelativeLayout>
+</RelativeLayout>
