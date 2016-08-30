@@ -56,11 +56,12 @@ public class CoinItemAdapter extends ArrayAdapter<CoinNode> {
             ItemSumAsks.setText(msi.getSumAsks()+ " asks");
             ItemSumBids.setText(msi.getSumBids()+ " bids");
 
-            if(msi.getCoinId() > 19){
+            if(msi.getCoinId() > SuperVAR.CoinDrawable.length){
                 IconCoin.setImageResource(SuperVAR.CoinDrawable[0]);
-            }else{
+            } else {
                 IconCoin.setImageResource(SuperVAR.CoinDrawable[msi.getCoinId()]);
             }
+
 
         } catch (Exception ex) {
             ex.printStackTrace();

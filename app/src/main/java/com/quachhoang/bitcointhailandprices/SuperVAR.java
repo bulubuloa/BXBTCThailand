@@ -23,7 +23,7 @@ public class SuperVAR {
     public static final int POSITION_FRAGMENT_MARKET = 1;
 
     public static int[] CoinDrawable = {
-            R.drawable.icon,//
+            R.drawable.bitcoin48,//
             R.drawable.bitcoin48,
             R.drawable.litecoin48,
             R.drawable.namecoin48,
@@ -43,6 +43,8 @@ public class SuperVAR {
             R.drawable.paycoin48,
             R.drawable.leocoin48,
             R.drawable.quarkcoin48,
+            R.drawable.ethcoin,
+            R.drawable.ethcoin,
     };
 
     public static final String ERROR_NETWORK_OR_SERVER = "Internet connection error or server not available";
